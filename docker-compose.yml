@@ -1,0 +1,22 @@
+webserver:
+  build: .
+  ports:
+    - "8080:80"
+  volumes:
+    - ~/d8versionning:/var/www/html
+  environment:
+    - UPLOAD_LIMIT=20M
+    - MEMORY_LIMIT=256M
+  links:
+    - db:db
+db:
+  image: mysql
+  environment:
+    MYSQL_USER: drupal
+    MYSQL_PASSWORD: drupal
+    MYSQL_DATABASE: drupal
+    MYSQL_ROOT_PASSWORD: drupal
+    MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+  restart: always
+  volumes:
+    - /var/lib/mysql
