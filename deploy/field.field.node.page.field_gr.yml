@@ -1,0 +1,19 @@
+uuid: ca3801da-fcfc-4a31-ab01-1ded1965276a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gr
+    - node.type.page
+id: node.page.field_gr
+field_name: field_gr
+entity_type: node
+bundle: page
+label: grrrrrrrrrrr
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

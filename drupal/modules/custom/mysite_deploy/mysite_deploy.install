@@ -13,7 +13,7 @@ function mysite_deploy_install() {
   // instances of a codebase will have the same uuid, enabling us to
   // sync these instances via the config management system.
   // See also https://www.drupal.org/node/2133325
-  mysite_deploy_set_uuid('e732b460-add4-47a7-8c00-e4dedbb42900');
+  mysite_deploy_set_uuid('be7ba775-64a9-48ec-8800-f7ac3227908f');
   for ($i = 7001; $i < 8000; $i++) {
     $candidate = 'mysite_deploy_update_' . $i;
     if (function_exists($candidate)) {
