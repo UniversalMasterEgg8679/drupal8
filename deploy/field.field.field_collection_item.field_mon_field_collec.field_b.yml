@@ -1,0 +1,21 @@
+uuid: 81f391a0-a9c4-483e-a303-0376443fcef8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_b
+    - field_collection.field_collection.field_mon_field_collec
+  module:
+    - datetime
+id: field_collection_item.field_mon_field_collec.field_b
+field_name: field_b
+entity_type: field_collection_item
+bundle: field_mon_field_collec
+label: B
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

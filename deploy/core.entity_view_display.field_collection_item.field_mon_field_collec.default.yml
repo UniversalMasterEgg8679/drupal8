@@ -1,0 +1,31 @@
+uuid: 900c43cc-8b46-483c-b200-bfb47d54da26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_mon_field_collec.field_a
+    - field.field.field_collection_item.field_mon_field_collec.field_b
+    - field_collection.field_collection.field_mon_field_collec
+  module:
+    - datetime
+id: field_collection_item.field_mon_field_collec.default
+targetEntityType: field_collection_item
+bundle: field_mon_field_collec
+mode: default
+content:
+  field_a:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_b:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+hidden: {  }

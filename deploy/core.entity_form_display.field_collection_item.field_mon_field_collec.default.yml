@@ -1,0 +1,28 @@
+uuid: 38aa4a14-9881-4f13-b700-bd6662c234de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_mon_field_collec.field_a
+    - field.field.field_collection_item.field_mon_field_collec.field_b
+    - field_collection.field_collection.field_mon_field_collec
+  module:
+    - datetime
+id: field_collection_item.field_mon_field_collec.default
+targetEntityType: field_collection_item
+bundle: field_mon_field_collec
+mode: default
+content:
+  field_a:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_b:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+hidden: {  }
