@@ -171,6 +171,8 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      use_ajax: true
+      css_class: 'titi toto'
     cache_metadata:
       max-age: -1
       contexts:
