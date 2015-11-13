@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_gr
     - field.field.node.page.field_mon_field_collec
     - node.type.page
   module:
@@ -28,6 +29,12 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_gr:
+    weight: 33
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
   field_mon_field_collec:
     weight: 32
     settings: {  }

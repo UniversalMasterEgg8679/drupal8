@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_gr
     - field.field.node.page.field_mon_field_collec
     - node.type.page
   module:
@@ -21,6 +22,12 @@ content:
     weight: 100
     settings: {  }
     third_party_settings: {  }
+  field_gr:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
   field_mon_field_collec:
     weight: 102
     label: above
