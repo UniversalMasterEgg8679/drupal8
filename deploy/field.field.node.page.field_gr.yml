@@ -1,0 +1,19 @@
+uuid: da0d3c6f-0710-418d-9b00-adab8c344c31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gr
+    - node.type.page
+id: node.page.field_gr
+field_name: field_gr
+entity_type: node
+bundle: page
+label: grrrrrrrrr
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email
